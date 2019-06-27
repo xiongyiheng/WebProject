@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mix Player</title>
+    <link rel="stylesheet" href="stylesheets/mix.css">
+</head>
+<body>
+<header>
+    <h1 style="color:white">FC BARCELONA.com</h1>
+</header>
+<div class="canvasDiv" align="center">
+    <button class="button" onclick="pre()">←</button>
+    <canvas id="canvas" width="600" height="500" class="canvas">
+    </canvas>
+    <button class="button" onclick="next()">→</button>
+</div>
+<br>
+<div class="emojiDiv" align="center">
+    <img src="img/happy.jpg" width="80" height="80" onclick="happy()">
+    <img src="img/no-feeling.jpg" width="80" height="80" onclick="no_feeling()">
+    <img src="img/angry.jpg" width="80" height="80" onclick="angry()">
+</div>
+
+<script src="scripts/mix.js" charset="UTF-8"></script>
+</body>
+</html>

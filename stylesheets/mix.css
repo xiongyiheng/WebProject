@@ -1,0 +1,48 @@
+html, body {
+    background-color: lightgrey;
+}
+
+header {
+    background-color: black;
+}
+
+h1 {
+    font-size: 280%;
+    text-shadow: 5px 5px 5px gray;
+    text-align: center;
+}
+
+.canvas {
+    background-color: darkgray;
+    border: 1px solid black;
+    margin-top: 5%;
+}
+
+.canvasDiv {
+    height: 600px;
+    width: 800px;
+    box-shadow: black 5px 5px 10px 10px;
+    margin-left: 20%;
+    background-color: darkgrey;
+    border-radius: 25px;
+}
+
+.emojiDiv {
+    border: 1px solid black;
+    box-shadow: black 3px 3px 5px 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: darkgrey;
+    border: none;
+    color: black;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
